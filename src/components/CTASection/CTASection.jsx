@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CTASection() {
   return (
     <section
-      className="relative flex min-h-[520px] w-full items-center justify-center bg-cover bg-top bg-no-repeat sm:min-h-[580px] lg:min-h-[680px]"
+      className="relative flex min-h-130 w-full items-center justify-center bg-cover bg-top bg-no-repeat sm:min-h-145 lg:min-h-170"
       style={{ backgroundImage: "url('/images/cta-bg.png')" }}
     >
       <div className="mx-auto flex max-w-4xl flex-col items-center px-5 pb-16 pt-32 text-center sm:px-8 lg:pb-24 lg:pt-44">

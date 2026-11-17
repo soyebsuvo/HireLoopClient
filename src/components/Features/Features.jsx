@@ -1,3 +1,5 @@
+import Heading from "../Heading/Heading";
+
 const FEATURES = [
   {
     title: "Smart Search",
@@ -106,16 +108,7 @@ export default function Features() {
     <section className="w-full bg-neutral-900">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
         {/* Heading */}
-        <div className="text-center">
-          <p className="flex items-center justify-center gap-3 font-mono text-xs uppercase tracking-wider text-neutral-300 sm:text-sm">
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-            Features Job
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-          </p>
-          <h2 className="mx-auto mt-4 max-w-lg text-3xl font-medium leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl lg:leading-[1.15]">
-            Everything you need to succeed
-          </h2>
-        </div>
+        <Heading SubTitle={`Features Job`} Title={`Everything you need to succeed`}></Heading>
 
         {/* Feature grid */}
         <ul className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:mt-16 xl:grid-cols-4 xl:gap-x-6">

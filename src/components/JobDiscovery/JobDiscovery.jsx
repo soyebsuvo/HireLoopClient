@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Heading from "../Heading/Heading";
 
 const JOBS = [
   {
@@ -145,16 +146,7 @@ export default function JobDiscovery() {
     <section className="relative w-full">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
         {/* Heading */}
-        <div className="text-center">
-          <p className="flex items-center justify-center gap-3 font-mono text-xs uppercase tracking-wider text-neutral-300 sm:text-sm">
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-            Smart job discovery
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-          </p>
-          <h2 className="mx-auto mt-4 max-w-lg text-3xl font-medium leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl lg:leading-[1.15]">
-            The roles you&apos;d never find by searching
-          </h2>
-        </div>
+        <Heading SubTitle={`Smart job discovery`} Title={`The roles you'd never find by searching`}></Heading>
 
         {/* Job cards */}
         <ul className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-5">

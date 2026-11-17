@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Heading from "../Heading/Heading";
 
 const YEARLY_DISCOUNT = 0.25; // 25% off when billed yearly
 
@@ -126,16 +127,7 @@ export default function Pricing() {
     <section className="relative w-full">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
         {/* Heading */}
-        <div className="text-center">
-          <p className="flex items-center justify-center gap-3 font-mono text-xs uppercase tracking-wider text-neutral-300 sm:text-sm">
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-            Pricing
-            <span aria-hidden="true" className="h-1.5 w-1.5 bg-[#5b5cff]" />
-          </p>
-          <h2 className="mx-auto mt-4 max-w-xl text-3xl font-medium leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl lg:leading-[1.15]">
-            Pay for the leverage, not the listings
-          </h2>
-        </div>
+        <Heading SubTitle={`Pricing`} Title={`Pay for the leverage, not the listings`}></Heading>
 
         {/* Billing toggle */}
         <div className="mt-10 flex justify-center lg:mt-12">
@@ -184,7 +176,7 @@ export default function Pricing() {
               {/* Plan header */}
               <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3">
                 <div className="flex items-center gap-3">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-gradient-to-b from-black to-neutral-900">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-b from-black to-neutral-900">
                     <PlanIcon name={plan.icon} />
                   </span>
                   <h3 className="text-xl font-medium text-white xl:text-2xl">
