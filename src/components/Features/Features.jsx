@@ -121,7 +121,7 @@ export default function Features() {
         <ul className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:mt-16 xl:grid-cols-4 xl:gap-x-6">
           {FEATURES.map((feature) => (
             <li key={feature.title} className="flex items-start gap-4 sm:gap-5">
-              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-gradient-to-b from-black to-neutral-900 sm:h-[84px] sm:w-[84px]">
+              <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-linear-to-b from-black to-neutral-900 sm:h-21 sm:w-21">
                 <FeatureIcon name={feature.icon} />
               </span>
 
