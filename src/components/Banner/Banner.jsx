@@ -57,7 +57,7 @@ export default function Banner() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="mx-auto flex max-w-5xl flex-col items-center px-5 pb-20 pt-14 text-center sm:px-8 sm:pb-24 sm:pt-20 lg:pb-32 lg:pt-24">
+      <div className="mx-auto flex max-w-5xl flex-col items-center px-5 pb-20 pt-36 text-center sm:px-8 sm:pb-24 sm:pt-40 lg:pb-32 lg:pt-52">
         {/* Badge with side lines */}
         <div className="flex w-full items-center justify-center">
           <span
